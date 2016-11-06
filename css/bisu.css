@@ -1,0 +1,107 @@
+@charset "utf-8";
+/*比速专题页*/
+@font-face{
+    font-family: 'MFLangQian';
+    src: url(../fonts/MFLangQian_Noncommercial-Regular.otf);
+}
+@font-face{
+    font-family: 'DFGBZY9';
+    src: url(../fonts/DFGBZY9.ttf);
+}
+@media (max-width: 1920px) {
+    html {
+        font-size: 80.85%;
+    }
+}
+@media (max-width: 1600px) {
+    html {
+        font-size: 73.24%;
+    }
+}
+@media (max-width: 1400px) {
+    html {
+        font-size: 62.5%;
+    }
+}
+@media (max-width: 1000px) {
+    html {
+        font-size: 50%;
+    }
+}
+.fl{float: left;}
+.fr{float: right;}
+.clear{clear: both;}
+.wrapper{width: 1000px;margin: 0 auto;}
+.mainCon{width: 100%;background: url(../img/bg_main_2.jpg) no-repeat;background-size: cover;padding-bottom: 3rem}
+
+.partOne {font-family: "MFLangQian";color: #fff;}
+.partOne .logo{padding: 3% 0 0 2%;}
+.partOne .text{margin-left: 20%}
+.partOne h1{font-size: 10rem;letter-spacing: 20px;margin-top: 5rem;}
+.partOne p{font-size: 5rem}
+.partOne p small{font-size:2.8rem}
+
+.partTwo{margin-top: 53rem;color: #ffffff;overflow: hidden;}
+.partTwo h2{text-align: center;font-size: 5rem;font-family:"DFGBZY9";}
+.partTwo .titleBox{width: 90%;margin:1rem auto 5rem;overflow: hidden;}
+.partTwo .titleBox .left_line{width: 30%;height: 6px;background: #ffffff;margin-top: 2%}
+.partTwo .titleBox .center_word{width: 40%;text-align: center;color: #ffffff;font-family: "MFLangQian";font-size: 2.5rem}
+.partTwo .titleBox .right_line{width: 30%;height: 6px;background: #ffffff;margin-top: 2%}
+.partTwo .titleBox  p.made{font-size: 2.2rem;font-family:  "MFLangQian";width: 55% }
+.partTwo .car_show .right_car .car_text{width: 30%; margin-top:5%;}
+.partTwo .car_show .right_car .car_img{width: 70%;margin-right: -10rem}
+.partTwo .car_show .right_car h4{font-size: 3.5rem;font-family:"DFGBZY9";padding-left: 5%;border-left: 10px solid #d0b075;height:3rem;line-height: 3rem}
+.partTwo .car_show .right_car p{font-size: 2.4rem;font-family:"MFLangQian";margin-top: 5%}
+.partTwo .car_show .left_car .car_img{margin-left: -10%}
+.partTwo .car_show .left_car h4{padding-right: 5%;text-align: right;border-right: 10px solid #d0b075;padding-left: 0;border-left: 0}
+.partTwo .car_show .attitude .car_text{width:40%;margin-top: 15%;}
+.partTwo .car_show .attitude .car_text h4{font-size: 3.8rem}
+.partTwo .car_show .attitude .car_img{width:60%;margin-right: -20%}
+
+.partTwo .diamond .left_{width: 570px;height: 660px;margin-top: 10rem;}
+.partTwo .diamond .diamond_1{width: 413px;height: 413px;background: url(../img/img_diamond_1.png) no-repeat;margin-left: 76px }
+.partTwo .diamond .diamond_1 p{color: #ffffff;font-size: 30px;text-align: center;line-height: 413px;display: none}
+.partTwo .diamond .diamond_1:hover{background: url(../img/img_diamond_hover_1.png) no-repeat;}
+.partTwo .diamond .diamond_1:hover p{display: block;}
+
+.partTwo .diamond .diamond_2{width: 288px;height: 288px;background: url(../img/img_diamond_2.png) no-repeat;margin: -125px 0 0 -5px}
+.partTwo .diamond .diamond_2 p{color: #ffffff;font-size: 24px;text-align: center;line-height: 288px;display: none}
+.partTwo .diamond .diamond_2:hover{background: url(../img/img_diamond_hover_2.png) no-repeat;}
+.partTwo .diamond .diamond_2:hover p{display: block;}
+
+.partTwo .diamond .diamond_3{width: 288px;height: 288px;background: url(../img/img_diamond_3.png) no-repeat;margin: -288px 0 0 278px;}
+.partTwo .diamond .diamond_3:hover{background: url(../img/img_diamond_hover_3.png) no-repeat;}
+
+.partTwo .diamond .diamond_4{width: 212px;height: 212px;background: url(../img/img_diamond_4.png) no-repeat;margin:-130px 0 0 175px;}
+.partTwo .diamond .diamond_4 p{color: #ffffff;font-size: 24px;text-align: center;line-height: 212px;display: none}
+.partTwo .diamond .diamond_4:hover{background: url(../img/img_diamond_hover_4.png) no-repeat;}
+.partTwo .diamond .diamond_4:hover p{display: block;}
+
+.partTwo .diamond .right_{width: 40%}
+
+.partThree{margin-top: 45rem;color: #ffffff;}
+.partThree .vedioBox{width: 725px;height: 240px;margin: 0 auto;background: url(../img/bg_border.png) no-repeat;position: relative;}
+.partThree .vedioBox img{margin: -208px 0 0 69px}
+.partThree .vedioBox p{width: 540px;height: 50px;margin: 15px 0 0 150px;}
+.partThree .vedioBox p a{display: block;font-size: 20px;line-height: 50px;text-align: center;color: #ffffff}
+.partThree .vedioBox p a:hover{color: #d0b075}
+.partThree .vedioBox i.player{display: block;height: 82px;width: 82px;background: url(../img/icon_player.png) no-repeat;position: absolute;top: -58px;left: 50%; margin-left: -41px;}
+.partThree .vedioBox i.player a{display: block;width: 80px;height: 82px}
+.partThree .activity{width: 840px;height: 220px;margin: 0 auto;margin: 3rem auto 0;}
+.partThree .activity .left{width: 395px;height: 220px;background: url(../img/bg_img_box.png) no-repeat}
+.partThree .activity .left a{display: block;width: 378px;height: 200px;margin: 10px;position: relative;}
+.partThree .activity .left a p{width: 378px;height: 200px;position: absolute;background: #000;opacity: .8;text-align: center;top:0;left: 0;font-size: 25px;color: #ffffff;display: none}
+.partThree .activity .left a p span{display: block;margin-top: 66px}
+.partThree .activity .right a p span{display: block;margin-top: 90px}
+.partThree .activity .left a:hover p{display: block;}
+
+.footer{background :#000;text-align: center;color: #ffffff;padding:1rem 0;}
+.footer img{vertical-align: middle;}
+
+@media (max-width: 1920px) and (min-width: 1600px) {
+	.partTwo{margin-top: 48rem}
+    .partThree{margin-top:38rem;}
+    .partTwo .diamond .left_{margin-top: 15rem}
+    .partTwo .diamond .right_{margin-top: 5rem}
+    .car_show{margin-top:5rem}
+}
