@@ -1,5 +1,28 @@
 @charset "utf-8";
 /*比速专题页*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body,   /*1*/
+input,select,button,textarea /*2*/
+{
+    font:12px/1.5 tahoma,arial,"微软雅黑";
+}
+ul,dl{
+    list-style: none;
+}
+a {
+    text-decoration: none;/*1*/
+   cursor: pointer;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-size:100%;
+    font-weight:500;
+    margin-top: 0;
+    margin-bottom: 0;
+}
 @font-face{
     font-family: 'MFLangQian';
     src: url(../fonts/MFLangQian_Noncommercial-Regular.otf);
@@ -81,10 +104,10 @@
 
 .partThree{margin-top: 45rem;color: #ffffff;}
 .partThree .vedioBox{width: 725px;height: 240px;margin: 0 auto;background: url(../img/bg_border.png) no-repeat;position: relative;}
-.partThree .vedioBox img{margin: -208px 0 0 69px}
-.partThree .vedioBox p{width: 540px;height: 50px;margin: 15px 0 0 150px;}
-.partThree .vedioBox p a{display: block;font-size: 20px;line-height: 50px;text-align: center;color: #ffffff}
-.partThree .vedioBox p a:hover{color: #d0b075}
+.partThree .vedioBox embed{margin: -208px 0 0 69px}
+.partThree .vedioBox p{width: 540px;height: 50px;margin: 19px 0 0 150px;}
+.partThree .vedioBox p{font-size: 20px;line-height: 50px;text-align: center;color: #ffffff}
+/*.partThree .vedioBox p a:hover{color: #d0b075}*/
 .partThree .vedioBox i.player{display: block;height: 82px;width: 82px;background: url(../img/icon_player.png) no-repeat;position: absolute;top: -58px;left: 50%; margin-left: -41px;}
 .partThree .vedioBox i.player a{display: block;width: 80px;height: 82px}
 .partThree .activity{width: 840px;height: 220px;margin: 0 auto;margin: 3rem auto 0;}
